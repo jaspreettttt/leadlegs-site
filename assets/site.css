@@ -137,3 +137,6 @@ footer a:hover { color: var(--text); }
 
 .flinks { display: flex; gap: 8px 24px; flex-wrap: wrap; }
 .flinks a { padding: 10px 0; }
+
+.card.static { cursor: default; }
+.card.static:hover { background: var(--surface); border-color: var(--line); transform: none; box-shadow: none; }
